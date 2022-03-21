@@ -1,0 +1,14 @@
+name: Notify repos about new release
+on:
+  push:
+    branch: [china-l10n]
+
+jobs:
+  broadcast:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./.github/actions/broadcast-event
+        with:
+          token: ${{ secrets.GITHUB_ACCESS_TOKEN }}
+          event: china-commons-deploy
