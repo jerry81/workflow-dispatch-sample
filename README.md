@@ -7,4 +7,5 @@
 - requires Ruby
 - gem install octokit
 
-- trigger a broadcast2
+- trigger a broadcast3
+- this time, no repository_dispatches should be triggered
