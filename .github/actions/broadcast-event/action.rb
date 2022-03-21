@@ -1,8 +1,8 @@
 require 'octokit'
 
 event = ENV['INPUT_EVENT']
-org = ENV['GITHUB_REPOSITORY'].split('/').first
-
+# org = ENV['GITHUB_REPOSITORY'].split('/').first
+org = "jerry81/actions-practice"
 client = Octokit::Client.new(access_token: ENV['INPUT_TOKEN'], per_page: 100)
 client.auto_paginate = true
 
