@@ -7,4 +7,4 @@
 - requires Ruby
 - gem install octokit
 
-- trigger a broadcast
+- trigger a broadcast2
