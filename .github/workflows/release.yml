@@ -11,5 +11,5 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./.github/actions/broadcast-event
         with:
-          token: ${{ secrets.GITHUB_ACCESS_TOKEN }}
+          token: ${{ secrets.TOP_SECRET_TOKEN }}
           event: china-commons-deploy
