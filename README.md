@@ -6,3 +6,5 @@
 # testing scripts
 - requires Ruby
 - gem install octokit
+
+- trigger a broadcast
