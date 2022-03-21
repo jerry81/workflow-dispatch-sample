@@ -1,7 +1,8 @@
 name: Notify repos about new release
 on:
   push:
-    branch: [china-l10n]
+    branches:
+      - 'china-l10n'
 
 jobs:
   broadcast:
